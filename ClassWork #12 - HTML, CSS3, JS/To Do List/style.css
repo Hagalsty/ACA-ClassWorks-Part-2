@@ -1,0 +1,66 @@
+body {
+  display: flex;
+  justify-content: center;
+}
+
+#container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 300px;
+  border: 2px solid black;
+  border-radius: 10px;
+  padding: 5px;
+}
+
+#toDoInputForm {
+  margin: 5px;
+}
+
+#toDos {
+  border: 1px solid black;
+  border-radius: 6px;
+  margin: 5px;
+  padding: 5px;
+  box-sizing: border-box;
+  width: inherit;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.labelContainer {
+  box-sizing: border-box;
+  width: inherit;
+  display: flex;
+  justify-content: space-between;
+  margin: 5px;
+  padding: 5px;
+  border-bottom: 1px solid black;
+}
+
+.labelContainer:hover {
+  background: rgb(243 255 81);
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+  padding-left: 4px;
+  padding-right: 4px;
+  font-size: 18px;
+}
+
+.listButton {
+  cursor: pointer;
+  margin: 1px;
+  border: 1px solid black;
+  border-radius: 6px;
+  width: 63px;
+}
+
+.rmListButton {
+  background: lightcoral;
+}
+
+.doneListButton {
+  background: lightgreen;
+}

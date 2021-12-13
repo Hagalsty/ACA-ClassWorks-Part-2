@@ -1,0 +1,28 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  align-items: center;
+}
+
+#buttonForDate {
+  width: 120px;
+  height: 30px;
+  border: 2px solid black;
+  border-radius: 6px;
+}
+
+.placeForNewDate {
+  display: none;
+  border: 1px solid black;
+  width: fit-content;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.text-color {
+  color: brown;
+}

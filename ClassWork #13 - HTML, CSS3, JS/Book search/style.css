@@ -1,0 +1,41 @@
+#container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid black;
+  border-radius: 10px;
+  margin: auto;
+  padding: 10px;
+  width: max-content;
+}
+
+#search {
+  margin: 5px;
+}
+
+#result {
+  width: max-content;
+  margin: 5px;
+}
+
+#result th,
+td {
+  padding: 5px;
+  max-width: 200px;
+  text-align: center;
+}
+
+#ButtonsContainer {
+  display: flex;
+  justify-content: space-between;
+  width: 300px;
+}
+
+.buttonsForPages {
+  width: 100px;
+  height: 30px;
+  border: 1px solid black;
+  border-radius: 6px;
+  cursor: pointer;
+}

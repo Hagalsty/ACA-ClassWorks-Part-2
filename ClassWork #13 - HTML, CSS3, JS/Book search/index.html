@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Get Books</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div id="container">
+      <div id="search">
+        <input type="text" name="bookName" id="bookName" />
+        <button id="searchBtn">Search</button>
+      </div>
+
+      <table id="result" border="1">
+        <thead>
+          <tr>
+            <th>Title</th>
+            <th>Author</th>
+            <th>Publishesd</th>
+            <th>Subject</th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+      <div id="ButtonsContainer">
+        <button id="prev" class="buttonsForPages">Prev</button>
+        <button id="next" class="buttonsForPages">Next</button>
+      </div>
+    </div>
+    <script type="module" src="./index.js"></script>
+  </body>
+</html>

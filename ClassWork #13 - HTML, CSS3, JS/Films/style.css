@@ -1,0 +1,28 @@
+#container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 10px auto;
+  width: max-content;
+  max-width: 500px;
+  padding: 10px;
+  border: 2px solid black;
+  border-radius: 10px;
+}
+
+#res {
+  margin: 10px 0px;
+  border: 2px solid black;
+  padding: 5px 10px;
+  border-radius: 10px;
+}
+
+.section {
+  display: flex;
+  margin: 5px 0;
+}
+
+.sectionFirstChild {
+  width: 85px;
+  margin-right: 10px;
+}
