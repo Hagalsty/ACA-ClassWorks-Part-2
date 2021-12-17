@@ -1,8 +1,7 @@
-const url = "https://ghibliapi.herokuapp.com/films/";
-
-export async function getData() {
+export async function getData(url) {
   const res = await fetch(url)
     .then((r) => r.json())
     .then((r) => r);
+
   return res;
 }

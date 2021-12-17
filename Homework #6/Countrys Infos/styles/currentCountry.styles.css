@@ -1,0 +1,14 @@
+#infoContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: max-content;
+  margin: 10px auto;
+  padding: 10px;
+  border: 2px solid black;
+  border-radius: 10px;
+}
+
+.subContainers {
+  padding: 1px 0;
+}

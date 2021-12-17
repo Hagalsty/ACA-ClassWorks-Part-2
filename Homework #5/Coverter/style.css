@@ -1,0 +1,27 @@
+#container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  width: 350px;
+  height: 150px;
+  background: lightblue;
+  border-radius: 15px;
+}
+
+.cell {
+  box-sizing: border-box;
+  margin: 2.5px;
+  padding: 3px;
+  width: 150px;
+  height: 30px;
+  border: 2px solid grey;
+  border-radius: 6px;
+  color: grey;
+  font-weight: bold;
+}
+
+.cell:focus {
+  outline: none;
+}
